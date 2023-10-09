@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>INTERSHIP PAGE by MOHAMMED AFTAB</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav id="nav">
+    <img src="https://vaultofcodes.com/cdn/shop/files/Untitled_5.png?v=1695629147&width=90" alt="vaultCodesLogo">
+
+    <div id="navLink">
+      <a href="#">Home</a>
+      <a href="#">Catalog</a>
+      <a href="#">Contacts</a>
+      <a href="#" class="active">Internships</a>
+    </div>
+
+    <!-- hummburger menu links  -->
+    <div id="navLinks" class="navLink">
+      <a href="#">Home</a>
+      <a href="#">Catalog</a>
+      <a href="#">Contacts</a>
+      <a href="#" class="active">Internships</a>
+    </div>
+
+    <div id="navIcons">
+      <a href="#"><i class="fa fa-search" style="font-size:25px; color:#fff"></i></a>
+      <a href="#"><i class="fa fa-shopping-bag" style="font-size:25px; color:#fff"></i></a>
+      <button class="hamburger-menu">&#9776</button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section id="internPage">
+      <h1>Interships</h1>
+      <div id="articles">
+        <article>
+          <h2>Web Development Internship Program</h2>
+          <ul>
+            <li>Duration: 1 month</li>
+            <li>Location: Virtual</li>
+            <li>Stipend: -</li>
+            <li>Start date: 25/10/2023</li>
+          </ul>
+          <button>View Details</button>
+        </article>
+
+        <article>
+          <h2>App Development Internship Program</h2>
+          <ul>
+            <li>Duration: 1 month</li>
+            <li>Location: Virtual</li>
+            <li>Stipend: -</li>
+            <li>Start date: 25/10/2023</li>
+          </ul>
+          <button>View Details</button>
+        </article>
+
+        <article>
+          <h2>Python Development Internship Program</h2>
+          <ul>
+            <li>Duration: 1 month</li>
+            <li>Location: Virtual</li>
+            <li>Stipend: -</li>
+            <li>Start date: 25/10/2023</li>
+          </ul>
+          <button>View Details</button>
+        </article>
+
+        <article>
+          <h2>Java Development Internship Program</h2>
+          <ul>
+            <li>Duration: 1 month</li>
+            <li>Location: Virtual</li>
+            <li>Stipend: -</li>
+            <li>Start date: 25/10/2023</li>
+          </ul>
+          <button>View Details</button>
+        </article>
+
+        <article class="item6">
+          <h2>Canva Designing Internship Program</h2>
+          <ul>
+            <li>Duration: 1 month</li>
+            <li>Location: Virtual</li>
+            <li>Stipend: -</li>
+            <li>Start date: 25/10/2023</li>
+          </ul>
+          <button>View Details</button>
+        </article>
+      </div>
+    </section>
+    <section id="about">
+      <div id="aboutUs">
+        <img src="	https://msme.gov.in/sites/all/themes/msme/images/emblem-dark.png" alt="logo">
+        <img src="https://vaultofcodes.com/cdn/shop/files/NCS-Logo-removebg-preview.png?v=1695629705&width=200"
+          alt="logo">
+
+        <p class="para">About Us</p>
+        <p class="para">Policies</p>
+      </div>
+    </section>
+    <section id="contact">
+      <div id="subscribe">
+        <h3>Subscribe to our emails</h3>
+        <div id="form">
+          <input type="email" placeholder="Email">
+          <div class="social">
+            <a href="#"><i class="fa fa-instagram" style="font-size:30px"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p> © 2023, My Store </p>
+  </footer>
+
+  <script>
+    const navLinks = document.getElementById("navLinks");
+    const hamburgerButton = document.querySelector(".hamburger-menu");
+
+    // Add a click event listener to the hamburger button
+    hamburgerButton.addEventListener("click", function () {
+      // Toggle the 'display' style property of navLinks
+      if (navLinks.style.display === "none" || navLinks.style.display === "") {
+        navLinks.style.display = "block";
+      } else {
+        navLinks.style.display = "none";
+      }
+    });
+
+  </script>
+</body>
+
+</html>
