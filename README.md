@@ -1,2 +1,2 @@
 # Internship_page
-I have stored HTML, CSS, and JavaScript files for an internship page inside it, where I have created the page and demonstrated creativity.
+I was assigned a task as an intern to create a web page with the name "INTERNSHIP PAGE" for the Voultofcodes website, making it attractive. I used my creativity and the skills I had to design the page. check My Work.
